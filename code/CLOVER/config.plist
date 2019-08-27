@@ -232,7 +232,8 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Iris Plus Graphics 655</string>
-			</dict>		</dict>
+			</dict>		
+		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>

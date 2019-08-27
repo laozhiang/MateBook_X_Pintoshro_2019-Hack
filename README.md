@@ -14,6 +14,18 @@
 2、本文仅记录黑苹果过程，不涉及多系统安装<BR>
 3、问题交流请到QQ群：812158410
 
+## 目录
+
+- [机型配置信息](#一机型配置信息)
+- [成果](#二成果)
+- [问题记录](#三问题记录)
+- [安装需求](#四安装需求)
+- [小白版安装过程](#五小白版安装过程)
+- [安装完成，请使用验证](#六安装完成请使用验证)
+- [调整硬盘启动](#七调整硬盘启动默认你已经会打开efi分区)
+- [安装用Clover制作](#八安装用clover制作以下为进阶材料供想了解clover配置过程的朋友参考)
+- [Clover修改过程](#九clover修改过程以下为进阶材料供想了解clover配置过程的朋友参考目前尚不完整)
+
 ## 一、机型配置信息
 | 项目 | 详细参数|
 | :--: | :-------------------- |
@@ -49,6 +61,7 @@
 |开盖唤醒| OK |
 | 睿频  | OK|
 |      | |
+
 ## 三、问题记录
 - 启动：偶尔启动不成功，建议启动不关闭啰嗦模式
 - 登录界面偶尔黑屏：如果出现该情况，合上笔记本，等几秒，再打开看看是否OK。
@@ -56,6 +69,7 @@
 - 蓝牙：两种支持方式，参见成果描述
 - 独显：不支持
 - 指纹： 不支持
+
 ## 四、安装需求
 - USB Hub或扩展坞(必须)-该机型仅有1个USB接口，安装需要两个USB设备，U盘和USB鼠标
 - U盘 8G以上（必须）
@@ -64,6 +78,7 @@
 - 如安装到移动硬盘，请外接电源（已经出现几例未外接电源启动不成功的），安装过程中出现突然重启或错误可以尝试换一下移动硬盘接入端口，建议接雷电口  
 个人建议：多用ubuntu 18.4做一个安装盘，其中包含liveCD，linux下一些操作比widows要方面很多。
 精通多重启动的用户可以一个U盘包含winpe，和linuxCD
+
 ## 五、小白版安装过程
 ### 1、软件下载
 | 软件 | 是否必须 | 用途 | 下载地址 |
@@ -189,7 +204,9 @@
 - step2:左侧选择“机型设置”，右边窗口在“检查覆盖范围下方”有个上下箭头的小按钮，点击后弹出菜单，选择“Macbook Pro 1.5.2”
 - step3:顶部菜单选择“存储”，弹出保存对话空，在“位置”右侧有一个向下的那就，点击后选择存储目录，修改文件名
 - step4:使用文本编辑器打开刚才存储的文件，将SMBIOS一段复制到目前启动U盘的EFI/CLOVER/config.plist总相同的位置
+
 ## 六、安装完成，请使用验证
+
 ## 七、调整硬盘启动（默认你已经会打开EFI分区）
 - 将目前启动U盘的EFI目录下CLOVER目录复制到硬盘的EFI目录下
 - 重新启动到WIN，使用EasyUEFI，添加启动为，启动文件为CLOVERX64.efi
@@ -268,26 +285,27 @@
 		</array>
    ```
 - USB安装盘基本修改完成
+
 ## 九、Clover修改过程（以下为进阶材料，供想了解CLOVER配置过程的朋友参考，目前尚不完整）
 
-| 所在步骤 |软件 | 版本 |下载地址 |
+| 所在步骤 | 软件 | 版本 | 下载地址 |
 | :--: |:--: |:--: |:-------------------- |
-| step1 | CLOVER | v2.5k_r5045 |https://sourceforge.net/projects/cloverefiboot/|
-| step1 | VirtualSMC | 1.0.7 | https://github.com/acidanthera/VirtualSMC |
-| step1 | VoodooPS2Controller |2018-1008 | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller |
-| step1 | Lilu | 1.3.8 | https://github.com/acidanthera/Lilu |
-| step1 | WhateverGreen |1.3.1 | https://github.com/acidanthera/WhateverGreen |
-| step1 | SSDT-XOSI.dsl<BR> SSDT-DDGPU.dsl| |https://github.com/RehabMan/OS-X-Clover-Laptop-Config |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | CLOVER | v2.5k_r5045 | https://sourceforge.net/projects/cloverefiboot |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | VirtualSMC | [![版本](https://img.shields.io/github/release/acidanthera/VirtualSMC.svg?style=flat-square&label=)](https://github.com/acidanthera/VirtualSMC) | https://github.com/acidanthera/VirtualSMC |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | VoodooPS2Controller | 2018-1008 | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | Lilu | [![版本](https://img.shields.io/github/release/acidanthera/Lilu.svg?style=flat-square&label=)](https://github.com/acidanthera/Lilu) | https://github.com/acidanthera/Lilu |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | WhateverGreen | [![版本](https://img.shields.io/github/release/acidanthera/WhateverGreen.svg?style=flat-square&label=)](https://github.com/acidanthera/WhateverGreen) | https://github.com/acidanthera/WhateverGreen |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | SSDT-XOSI.dsl<BR> SSDT-DDGPU.dsl| |https://github.com/RehabMan/OS-X-Clover-Laptop-Config |
 | | | |
-| step3| SSDT-PNLF_CoffeeLake.aml | |https://github.com/daliansky/XiaoMi-GLP/raw/dev/EFI/CLOVER/ACPI/patched/SSDT-PNLF_CoffeeLake.aml|
+| [step3](#3显卡亮度调节) | SSDT-PNLF_CoffeeLake.aml | | https://github.com/daliansky/XiaoMi-GLP/raw/dev/EFI/CLOVER/ACPI/patched/SSDT-PNLF_CoffeeLake.aml |
 | | | |
-| step4 | VoodooI2C | 2.2 | https://github.com/alexandred/VoodooI2C |
+| [step4](#4驱动触摸板) | VoodooI2C <br>VoodooI2CHID.kext | [![版本](https://img.shields.io/github/v/release/alexandred/VoodooI2C.svg?style=flat-square&label=)](https://github.com/alexandred/VoodooI2C) | https://github.com/alexandred/VoodooI2C |
 | | | |
-| step6 | NoTouchID <br>VoodooI2CHID.kext | 1.0.2 | https://github.com/al3xtjames/NoTouchID |
+| [step6](#6防止输入密码卡顿) | NoTouchID | [![版本](https://img.shields.io/github/v/release/al3xtjames/NoTouchID.svg?style=flat-square&label=)](https://github.com/al3xtjames/NoTouchID) | https://github.com/al3xtjames/NoTouchID |
 | | | |
-| step7 | NullEthernet | 2016-1220 | https://bitbucket.org/RehabMan/os-x-null-ethernet/src/master/ |
+| [step7](#7内建网卡确保可登录appstore) | NullEthernet | 2016-1220 | https://bitbucket.org/RehabMan/os-x-null-ethernet/src/master/ |
 | | | |
-| step9 | AppleALC | 1.4.0 |https://github.com/acidanthera/AppleALC|
+| [step9](#9驱动声卡暂且使用官方版本已经提交代码id为97等到141及以后版本) | AppleALC | [![版本](https://img.shields.io/github/release/acidanthera/AppleALC.svg?style=flat-square&label=)](https://github.com/acidanthera/AppleALC/releases) | https://github.com/acidanthera/AppleALC |
 |  | |
 
 
