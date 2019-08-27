@@ -290,9 +290,9 @@
 
 | 所在步骤 | 软件 | 版本 | 下载地址 |
 | :--: |:--: |:--: |:-------------------- |
-| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | CLOVER | [![版本](https://img.shields.io/badge/-v2.5k__r5045-blue?style=flat-square)](https://sourceforge.net/projects/cloverefiboot) | https://sourceforge.net/projects/cloverefiboot |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | CLOVER | v2.5k_r5045 | https://sourceforge.net/projects/cloverefiboot |
 | [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | VirtualSMC | [![版本](https://img.shields.io/github/release/acidanthera/VirtualSMC.svg?style=flat-square&label=)](https://github.com/acidanthera/VirtualSMC) | https://github.com/acidanthera/VirtualSMC |
-| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | VoodooPS2Controller | [![版本](https://img.shields.io/badge/-2018--1008-blue?style=flat-square)](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller) | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller |
+| [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | VoodooPS2Controller | 2018-1008 | https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller |
 | [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | Lilu | [![版本](https://img.shields.io/github/release/acidanthera/Lilu.svg?style=flat-square&label=)](https://github.com/acidanthera/Lilu) | https://github.com/acidanthera/Lilu |
 | [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | WhateverGreen | [![版本](https://img.shields.io/github/release/acidanthera/WhateverGreen.svg?style=flat-square&label=)](https://github.com/acidanthera/WhateverGreen) | https://github.com/acidanthera/WhateverGreen |
 | [step1](#1基础制作----本部制作完成后无任何驱动界面字体很小) | SSDT-XOSI.dsl<BR> SSDT-DDGPU.dsl| |https://github.com/RehabMan/OS-X-Clover-Laptop-Config |
@@ -303,7 +303,7 @@
 | | | |
 | [step6](#6防止输入密码卡顿) | NoTouchID | [![版本](https://img.shields.io/github/v/release/al3xtjames/NoTouchID.svg?style=flat-square&label=)](https://github.com/al3xtjames/NoTouchID) | https://github.com/al3xtjames/NoTouchID |
 | | | |
-| [step7](#7内建网卡确保可登录appstore) | NullEthernet | [![版本](https://img.shields.io/badge/-2016--1220-blue?style=flat-square)](https://bitbucket.org/RehabMan/os-x-null-ethernet/src/master/) | https://bitbucket.org/RehabMan/os-x-null-ethernet/src/master/ |
+| [step7](#7内建网卡确保可登录appstore) | NullEthernet | 2016-1220 | https://bitbucket.org/RehabMan/os-x-null-ethernet/src/master/ |
 | | | |
 | [step9](#9驱动声卡暂且使用官方版本已经提交代码id为97等到141及以后版本) | AppleALC | [![版本](https://img.shields.io/github/release/acidanthera/AppleALC.svg?style=flat-square&label=)](https://github.com/acidanthera/AppleALC/releases) | https://github.com/acidanthera/AppleALC |
 |  | |
